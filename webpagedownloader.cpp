@@ -21,15 +21,19 @@ void WebPageDownloader::setUrl(QUrl _url)
     url = _url;
 }
 
-void WebPageDownloader::httpReadyRead()
-{
-    output.append(reply->readAll());
-}
-
 void WebPageDownloader::httpFinished()
 {
+    output.append(reply->readAll());
+    reply->deleteLater();
     isReceiving = false;
-    emit(downloadFinished(output));
+    emit(telechargementTermine(output));
+}
+
+void WebPageDownloader::readReady()
+{
+    output.append(reply->readAll());
+    emit(donneesRecues(output));
+
 }
 
 bool WebPageDownloader::start(QString _url)
@@ -38,9 +42,10 @@ bool WebPageDownloader::start(QString _url)
         url = _url;
     if(isReceiving == false)
     {
+        output.clear();
         reply = get(QNetworkRequest(url));
         reply->ignoreSslErrors();
-        connect(reply, SIGNAL(readyRead()), this, SLOT(httpReadyRead()));
+        connect(reply, SIGNAL(readyRead()), this, SLOT(readReady()));
         connect(reply, SIGNAL(finished()), this, SLOT(httpFinished()));
         isReceiving = true;
         return true;

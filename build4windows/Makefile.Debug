@@ -222,6 +222,12 @@ debug/moc_mainwindow.cpp: D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/Q
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qtabwidget.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qicon.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QFile \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QDir \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qdir.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qfileinfo.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QMessageBox \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qmessagebox.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qdialog.h \
 		../webpagedownloader.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QUrl \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QNetworkAccessManager \
@@ -255,6 +261,7 @@ debug/moc_mainwindow.cpp: D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/Q
 		../youtubedl.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QProcess \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qprocess.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QStringList \
 		../mainwindow.h \
 		debug/moc_predefs.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/bin/moc.exe
@@ -315,6 +322,20 @@ debug/moc_youtubedl.cpp: D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QProc
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qshareddata.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qhash.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QString \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QStringList \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QFile \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qfile.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qfiledevice.h \
+		../webpagedownloader.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QUrl \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qurl.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qurlquery.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QNetworkAccessManager \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qnetworkaccessmanager.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qtnetworkglobal.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qtnetwork-config.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qnetworkrequest.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QSharedDataPointer \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QVariant \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qvariant.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qmap.h \
@@ -327,6 +348,26 @@ debug/moc_youtubedl.cpp: D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QProc
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qcontiguouscache.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qsharedpointer.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qsharedpointer_impl.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QVector \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QObject \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QSslConfiguration \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qsslconfiguration.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qsslsocket.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qtcpsocket.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qabstractsocket.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qsslerror.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qsslcertificate.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qcryptographichash.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qdatetime.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qssl.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QFlags \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QMetaType \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QNetworkReply \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qnetworkreply.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QIODevice \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QNetworkRequest \
 		../youtubedl.h \
 		debug/moc_predefs.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/bin/moc.exe
@@ -562,6 +603,12 @@ debug/main.o: ../main.cpp ../mainwindow.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qtabwidget.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qicon.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QFile \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QDir \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qdir.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qfileinfo.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QMessageBox \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qmessagebox.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qdialog.h \
 		../webpagedownloader.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QUrl \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QNetworkAccessManager \
@@ -595,6 +642,7 @@ debug/main.o: ../main.cpp ../mainwindow.h \
 		../youtubedl.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QProcess \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qprocess.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QStringList \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QApplication \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qapplication.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qcoreapplication.h \
@@ -712,6 +760,12 @@ debug/mainwindow.o: ../mainwindow.cpp ../mainwindow.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qtabwidget.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qicon.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QFile \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QDir \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qdir.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qfileinfo.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QMessageBox \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qmessagebox.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qdialog.h \
 		../webpagedownloader.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QUrl \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QNetworkAccessManager \
@@ -745,7 +799,11 @@ debug/mainwindow.o: ../mainwindow.cpp ../mainwindow.h \
 		../youtubedl.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QProcess \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qprocess.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QStringList \
 		ui_mainwindow.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QAction \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qaction.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qactiongroup.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QApplication \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qapplication.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qcoreapplication.h \
@@ -753,31 +811,40 @@ debug/mainwindow.o: ../mainwindow.cpp ../mainwindow.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qdesktopwidget.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qguiapplication.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qinputmethod.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QHBoxLayout \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qboxlayout.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qlayout.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qlayoutitem.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qgridlayout.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QLineEdit \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qlineedit.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QLabel \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qlabel.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qframe.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QMenu \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qmenu.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QMenuBar \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qmenubar.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QPlainTextEdit \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qplaintextedit.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qtextedit.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qtextdocument.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qtextoption.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qtextcursor.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qtextformat.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qpen.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qtextoption.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QMenuBar \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qmenubar.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qmenu.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qaction.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qactiongroup.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QPushButton \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qpushbutton.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qabstractbutton.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qabstracttextdocumentlayout.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qtextlayout.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qglyphrun.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qrawfont.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtGui/qfontdatabase.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QProgressBar \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qprogressbar.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QStatusBar \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qstatusbar.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QToolBar \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qtoolbar.h \
-		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QWidget
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QVBoxLayout \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qboxlayout.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qlayout.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qlayoutitem.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/qgridlayout.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtWidgets/QWidget \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\mainwindow.cpp
 
 debug/youtubedl.o: ../youtubedl.cpp ../youtubedl.h \
@@ -836,6 +903,20 @@ debug/youtubedl.o: ../youtubedl.cpp ../youtubedl.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qshareddata.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qhash.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QString \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QStringList \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QFile \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qfile.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qfiledevice.h \
+		../webpagedownloader.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QUrl \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qurl.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qurlquery.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QNetworkAccessManager \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qnetworkaccessmanager.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qtnetworkglobal.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qtnetwork-config.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qnetworkrequest.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QSharedDataPointer \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QVariant \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qvariant.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qmap.h \
@@ -848,6 +929,26 @@ debug/youtubedl.o: ../youtubedl.cpp ../youtubedl.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qcontiguouscache.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qsharedpointer.h \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qsharedpointer_impl.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QVector \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QObject \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QSslConfiguration \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qsslconfiguration.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qsslsocket.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qtcpsocket.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qabstractsocket.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qsslerror.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qsslcertificate.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qcryptographichash.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/qdatetime.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qssl.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QFlags \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QMetaType \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QNetworkReply \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/qnetworkreply.h \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QIODevice \
+		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtNetwork/QNetworkRequest \
 		D:/Programmes/Qt/5.11.2/mingw53_32/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\youtubedl.o ..\youtubedl.cpp
 

@@ -3,7 +3,10 @@
 
 #include <QProcess>
 #include <QString>
-#include <QVariant>
+#include <QStringList>
+#include <QFile>
+
+#include "webpagedownloader.h"
 
 class YoutubeDL : public QProcess
 {
@@ -20,24 +23,27 @@ public:
 
     void telecharger();
     void verifierMisesAJour();
+    void mettreAJour();
 
 signals:
-    void estAJour(bool);
+    void estAJour(QString versionActuelle, QString versionInternet);
+    void miseAJourTerminee(int);
 
 public slots:
     void recevoirVersion();
+    void recevoirYoutubeDLWebsite(QByteArray);
+    void miseAJourTerminee();
 
 private:
     QString url;
     QString fichierDestination;
     QString program;
+    QString version, derniereVersion;
     QStringList arguments;
     bool musiqueSeule;
     bool corrigerNomFichier;
     bool playlistComplete;
     State state;
-
-    void debugPrint(QVariant val);
 };
 
 

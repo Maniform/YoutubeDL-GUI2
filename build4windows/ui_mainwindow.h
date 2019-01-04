@@ -10,14 +10,17 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QLineEdit>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
-#include <QtWidgets/QPushButton>
+#include <QtWidgets/QPlainTextEdit>
+#include <QtWidgets/QProgressBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -25,12 +28,15 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
+    QAction *actionTelechargerPip;
+    QAction *actionVerifierVersion;
     QWidget *centralWidget;
-    QHBoxLayout *horizontalLayout;
-    QLineEdit *lineEdit;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
+    QVBoxLayout *verticalLayout;
+    QLabel *label;
+    QProgressBar *progressBar;
+    QPlainTextEdit *plainTextEdit;
     QMenuBar *menuBar;
+    QMenu *menuyoutube_dl;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
 
@@ -38,32 +44,41 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(400, 300);
+        MainWindow->resize(400, 252);
+        actionTelechargerPip = new QAction(MainWindow);
+        actionTelechargerPip->setObjectName(QStringLiteral("actionTelechargerPip"));
+        actionVerifierVersion = new QAction(MainWindow);
+        actionVerifierVersion->setObjectName(QStringLiteral("actionVerifierVersion"));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
-        horizontalLayout = new QHBoxLayout(centralWidget);
-        horizontalLayout->setSpacing(6);
-        horizontalLayout->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
-        lineEdit = new QLineEdit(centralWidget);
-        lineEdit->setObjectName(QStringLiteral("lineEdit"));
+        verticalLayout = new QVBoxLayout(centralWidget);
+        verticalLayout->setSpacing(6);
+        verticalLayout->setContentsMargins(11, 11, 11, 11);
+        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        label = new QLabel(centralWidget);
+        label->setObjectName(QStringLiteral("label"));
 
-        horizontalLayout->addWidget(lineEdit);
+        verticalLayout->addWidget(label);
 
-        pushButton = new QPushButton(centralWidget);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
+        progressBar = new QProgressBar(centralWidget);
+        progressBar->setObjectName(QStringLiteral("progressBar"));
+        progressBar->setMaximum(0);
+        progressBar->setValue(-1);
 
-        horizontalLayout->addWidget(pushButton);
+        verticalLayout->addWidget(progressBar);
 
-        pushButton_2 = new QPushButton(centralWidget);
-        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+        plainTextEdit = new QPlainTextEdit(centralWidget);
+        plainTextEdit->setObjectName(QStringLiteral("plainTextEdit"));
+        plainTextEdit->setReadOnly(true);
 
-        horizontalLayout->addWidget(pushButton_2);
+        verticalLayout->addWidget(plainTextEdit);
 
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 400, 21));
+        menuyoutube_dl = new QMenu(menuBar);
+        menuyoutube_dl->setObjectName(QStringLiteral("menuyoutube_dl"));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -72,6 +87,10 @@ public:
         statusBar->setObjectName(QStringLiteral("statusBar"));
         MainWindow->setStatusBar(statusBar);
 
+        menuBar->addAction(menuyoutube_dl->menuAction());
+        menuyoutube_dl->addAction(actionTelechargerPip);
+        menuyoutube_dl->addAction(actionVerifierVersion);
+
         retranslateUi(MainWindow);
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -79,9 +98,11 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        pushButton->setText(QApplication::translate("MainWindow", "T\303\251l\303\251charger", nullptr));
-        pushButton_2->setText(QApplication::translate("MainWindow", "V\303\251rifier version", nullptr));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "YoutubeDL-GUI2", nullptr));
+        actionTelechargerPip->setText(QApplication::translate("MainWindow", "T\303\251l\303\251charger pip", nullptr));
+        actionVerifierVersion->setText(QApplication::translate("MainWindow", "V\303\251rifier version", nullptr));
+        label->setText(QApplication::translate("MainWindow", "0 ko", nullptr));
+        menuyoutube_dl->setTitle(QApplication::translate("MainWindow", "youtube-dl", nullptr));
     } // retranslateUi
 
 };

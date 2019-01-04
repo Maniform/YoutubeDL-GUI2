@@ -18,18 +18,19 @@ public:
     void setUrl(QUrl);
 
 signals:
-    void downloadFinished(QString);
+    void donneesRecues(QByteArray);
+    void telechargementTermine(QByteArray);
 
 public slots:
-    void httpReadyRead();
     void httpFinished();
+    void readReady();
 
 private:
     bool isReceiving;
     bool httpRequestAborted;
     QUrl url;
     QNetworkReply *reply;
-    QString output;
+    QByteArray output;
 };
 
 #endif // WEBPAGEDOWNLOADER_H
